@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hfpaycore.com/sitemap.xml
