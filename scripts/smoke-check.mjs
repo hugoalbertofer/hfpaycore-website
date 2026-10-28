@@ -8,7 +8,7 @@ const checks=[
  ['bilingual interface',()=>{assert.ok(app.includes('hfpaycore-lang'));assert.ok(app.includes('Nawigacja główna'));assert.ok(legal.includes('content-en')&&legal.includes('content-pl'));}],
  ['registered legal details',()=>{for(const term of ['1133175590','542391423','Aleje Jerozolimskie 109'])assert.ok(legal.includes(term));}],
  ['legal footer link',()=>assert.ok(app.includes('href="/legal.html"'))],
- ['staging search protection',()=>{assert.ok(index.includes('noindex,nofollow'));assert.ok(legal.includes('noindex,nofollow'));}],
+ ['production search visibility',()=>{assert.ok(!index.includes('noindex,nofollow'));assert.ok(!legal.includes('noindex,nofollow'));}],
  ['accessible navigation',()=>{assert.ok(app.includes('skip-link'));assert.ok(app.includes('aria-expanded'));assert.ok(css.includes('focus-visible'));}],
  ['portrait asset',()=>assert.ok(existsSync('public/hugo-fernandes.jpg'))],
  ['compiled output',()=>{assert.ok(existsSync('dist/index.html'));assert.ok(existsSync('dist/legal.html'));}]
