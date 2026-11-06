@@ -18,3 +18,17 @@ footer .brand-logo-image{height:42px}
 @media(max-width:1100px){.brand-logo-image{height:39px;max-width:205px}.hero-corporate{min-height:600px;padding-top:290px;background-position:54% top}}
 @media(max-width:760px){.brand-logo-image{height:35px;max-width:185px}.hero-corporate{min-height:610px;padding:205px 24px 65px;background-size:auto 360px;background-position:center top;background-color:#05284d}.hero-corporate .hero-copy{max-width:100%}.hero-corporate .hero-description{font-size:14px;background:#052344e8}.hero-corporate .actions{gap:10px}}
 @media(max-width:390px){.brand-logo-image{height:30px;max-width:155px}.hero-corporate{padding:190px 18px 55px;background-size:auto 320px}}
+
+/* Identity layout refinement: full panoramic banner and legible logo */
+.topbar{height:104px;padding-left:max(3vw,24px);padding-right:max(3vw,24px)}
+.brand-lockup{display:flex;align-items:center;width:255px;height:94px;overflow:hidden}
+.brand-logo-image{height:220px;width:220px;max-width:none;object-fit:contain;flex:none;transform:translateY(-1px)}
+.hero.hero-corporate{display:flex;flex-direction:column;min-height:0;padding:0;background:#f4f8fd;overflow:visible}
+.hero-banner-image{display:block;width:100%;aspect-ratio:3/1;background:#04264c url('/hfpaycore-banner.png') center center / contain no-repeat}
+.hero-corporate .hero-copy{width:100%;max-width:none;padding:28px max(5vw,24px) 34px;background:#062b52;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.hero-corporate .hero-description{margin:0;padding:0;max-width:700px;color:#f1f7ff;background:transparent;border-radius:0;text-shadow:none;font-size:15px;line-height:1.7}
+.hero-corporate .actions{margin:0;flex-shrink:0}
+.hero-corporate-arc,.hero-corporate-art{display:none!important}
+@media(max-width:1100px){.topbar{height:88px}.brand-lockup{width:200px;height:82px}.brand-logo-image{width:185px;height:185px}.hero-corporate .hero-copy{gap:18px}}
+@media(max-width:760px){.topbar{height:76px}.brand-lockup{width:158px;height:70px}.brand-logo-image{width:154px;height:154px}.hero-banner-image{aspect-ratio:3/1;background-size:contain}.hero.hero-corporate{padding:0;min-height:0}.hero-corporate .hero-copy{padding:24px 20px 28px}.hero-corporate .hero-description{font-size:14px}.hero-corporate .actions{width:100%}}
+@media(max-width:390px){.brand-lockup{width:140px;height:64px}.brand-logo-image{width:138px;height:138px}.hero-corporate .hero-copy{padding:20px 16px 26px}}
