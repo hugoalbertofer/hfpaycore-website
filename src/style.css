@@ -103,3 +103,12 @@ footer .brand-logo-image{width:195px;height:195px;top:-50px}
 @media(max-width:1100px){.topbar{height:116px}.topbar .brand-lockup{width:205px;height:108px}.topbar .brand-logo-image{width:205px;height:205px;top:-47px}}
 @media(max-width:760px){.topbar{height:91px}.topbar .brand-lockup{width:154px;height:84px}.topbar .brand-logo-image{width:154px;height:154px;top:-35px}.nav{top:91px}}
 @media(max-width:390px){.topbar{height:86px}.topbar .brand-lockup{width:144px;height:80px}.topbar .brand-logo-image{width:144px;height:144px;top:-32px}.nav{top:86px}}
+
+/* Header/footer identity: shift the square artwork upward so the complete
+   HF, PayCore name and fine-print tagline fit inside the visible frame. */
+.topbar .brand-logo-image{top:-77px}
+footer .brand-lockup{height:120px;width:210px;overflow:hidden}
+footer .brand-logo-image{width:195px;height:195px;top:-68px}
+@media(max-width:1100px){.topbar .brand-logo-image{top:-70px}}
+@media(max-width:760px){.topbar .brand-logo-image{top:-54px}footer .brand-lockup{height:112px}}
+@media(max-width:390px){.topbar .brand-logo-image{top:-50px}}
