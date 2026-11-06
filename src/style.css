@@ -94,3 +94,12 @@ footer .brand-logo-image{width:195px;height:195px;top:-50px}
 @media(max-width:1100px){.topbar{height:88px}.brand-lockup{width:235px;height:82px}.brand-logo-image{width:220px;height:220px;top:-58px}.hero.hero-orbital{min-height:700px}.hero-orbital .hero-copy{width:53%}.hero-orbital h1{font-size:clamp(42px,5.2vw,65px)}.hero-orbital .tech-art{left:46%}}
 @media(max-width:760px){.topbar{height:78px}.brand-lockup{width:158px;height:73px}.brand-logo-image{width:163px;height:163px;top:-42px}.nav{top:78px}.hero.hero-orbital{min-height:730px;padding:95px 24px 65px;align-items:flex-start}.hero-orbital-wave{top:-95px;height:155px}.hero-orbital .hero-copy{width:100%;max-width:100%}.hero-orbital h1{font-size:clamp(38px,9vw,58px);max-width:550px}.hero-orbital .hero-description{font-size:14px;max-width:500px}.hero-orbital .tech-art{inset:270px -35% 0 8%;opacity:.24}.hero-orbital .tech-chip{display:none}.hero-orbital .button{font-size:13px;padding:13px 16px}}
 @media(max-width:390px){.hero.hero-orbital{padding:86px 18px 65px}.hero-orbital h1{font-size:36px}.brand-lockup{width:145px}.brand-logo-image{width:153px;height:153px;top:-39px}}
+
+/* Logo visibility fix: the supplied logo is a square asset with its full
+   three-line identity centered inside. Never crop the company name/tagline. */
+.topbar{height:132px;overflow:visible}
+.topbar .brand-lockup{display:block;width:225px;height:124px;overflow:hidden;flex-shrink:0}
+.topbar .brand-logo-image{display:block;position:relative;width:225px;height:225px;max-width:none;top:-50px;left:0;object-fit:contain}
+@media(max-width:1100px){.topbar{height:116px}.topbar .brand-lockup{width:205px;height:108px}.topbar .brand-logo-image{width:205px;height:205px;top:-47px}}
+@media(max-width:760px){.topbar{height:91px}.topbar .brand-lockup{width:154px;height:84px}.topbar .brand-logo-image{width:154px;height:154px;top:-35px}.nav{top:91px}}
+@media(max-width:390px){.topbar{height:86px}.topbar .brand-lockup{width:144px;height:80px}.topbar .brand-logo-image{width:144px;height:144px;top:-32px}.nav{top:86px}}
