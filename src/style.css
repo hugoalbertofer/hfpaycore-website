@@ -5,3 +5,16 @@
 @media(max-width:1100px){.brand-wordmark small{font-size:8px}.brand-monogram{font-size:32px}.brand-wordmark strong{font-size:18px}.hero-corporate-art{left:55%;opacity:.75}.hero-corporate .hero-copy{max-width:68%}.hero-symbols{right:6%;grid-template-columns:repeat(2,65px)}.hero-symbols span{height:65px}.hero-symbols svg{width:34px;height:34px}}
 @media(max-width:760px){.topbar{padding-left:16px;padding-right:16px}.brand-monogram{font-size:29px}.brand-wordmark strong{font-size:16px}.brand-wordmark small{font-size:7px}.hero-corporate{min-height:680px;padding:64px 24px 70px}.hero-corporate .hero-copy{max-width:100%}.hero-corporate h1{font-size:clamp(37px,8vw,55px)}.hero-corporate .hero-description{font-size:14px}.hero-corporate-art{inset:30% -20% 0 25%;opacity:.23}.hero-symbols{display:none}.hero-stats-bar{position:relative;display:grid;grid-template-columns:1fr;gap:17px;padding:25px 24px}.hero-stats-bar>div{display:grid;grid-template-columns:34px auto;align-items:center;column-gap:10px}.hero-stats-bar svg{display:block;grid-row:span 2}.hero-stats-bar strong{font-size:13px}.hero-stats-bar span{font-size:11px}.hero-stats-bar>div+div{border-left:0;padding-left:0}.hero-expertise{font-size:16px}.hero-corporate .eyebrow{font-size:10px}}
 @media(max-width:390px){.brand-lockup{gap:6px}.brand-monogram{font-size:25px}.brand-wordmark strong{font-size:14px}.brand-wordmark small{font-size:6px}.hero-corporate{padding-left:18px;padding-right:18px}.hero-corporate h1{font-size:36px}}
+
+/* Original HF PayCore LinkedIn identity assets — 2026-11-06 */
+.brand-logo-image{display:block;width:auto;height:47px;max-width:250px;object-fit:contain;object-position:left center}
+footer .brand-logo-image{height:42px}
+.hero-corporate{background:#04264c url('/hfpaycore-banner.png') center top / cover no-repeat;min-height:640px;padding-top:315px;padding-bottom:60px}
+.hero-corporate .hero-copy{max-width:650px}
+.hero-corporate .eyebrow,.hero-corporate h1,.hero-accent,.hero-expertise{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.hero-corporate-arc,.hero-corporate-art{display:none!important}
+.hero-corporate .hero-description{max-width:620px;color:#fff;text-shadow:0 1px 8px #00152b;font-size:15px;background:#052344b8;border-radius:8px;padding:12px 16px}
+.hero-corporate .actions{margin-top:18px}
+@media(max-width:1100px){.brand-logo-image{height:39px;max-width:205px}.hero-corporate{min-height:600px;padding-top:290px;background-position:54% top}}
+@media(max-width:760px){.brand-logo-image{height:35px;max-width:185px}.hero-corporate{min-height:610px;padding:205px 24px 65px;background-size:auto 360px;background-position:center top;background-color:#05284d}.hero-corporate .hero-copy{max-width:100%}.hero-corporate .hero-description{font-size:14px;background:#052344e8}.hero-corporate .actions{gap:10px}}
+@media(max-width:390px){.brand-logo-image{height:30px;max-width:155px}.hero-corporate{padding:190px 18px 55px;background-size:auto 320px}}
