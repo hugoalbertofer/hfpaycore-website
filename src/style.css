@@ -52,3 +52,18 @@ footer .brand-logo-image{width:190px;height:190px;top:-47px}
 @media(max-width:1100px){.topbar{height:108px}.brand-lockup{width:210px;height:100px}.brand-logo-image{width:210px;height:210px;top:-53px}}
 @media(max-width:760px){.topbar{height:86px}.brand-lockup{width:163px;height:80px}.brand-logo-image{width:163px;height:163px;top:-41px}.nav{top:86px}}
 @media(max-width:390px){.brand-lockup{width:148px;height:78px}.brand-logo-image{width:148px;height:148px;top:-36px}}
+
+/* Final hero polish: conceal text baked into the supplied banner while retaining
+   the right-hand icons/building; give the approved logo breathing room. */
+@media(min-width:761px){
+  .hero.hero-corporate:after{
+    background:linear-gradient(90deg,
+      #031b36 0%,#042344 30%,#042344 44%,
+      #042344 51%,#042344 62%,#042344f5 68%,
+      #042344b3 72%,transparent 78%);
+  }
+  .brand-logo-image{top:-53px}
+}
+@media(min-width:761px) and (max-width:1100px){
+  .brand-logo-image{top:-47px}
+}
