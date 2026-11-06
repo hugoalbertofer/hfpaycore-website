@@ -123,3 +123,32 @@ footer .brand-logo-image{position:static;display:block;width:156px;height:156px;
 @media(max-width:1100px){.topbar{height:146px;min-height:146px}.topbar .brand-lockup{width:148px;height:138px}.topbar .brand-logo-image{width:138px;height:138px}}
 @media(max-width:760px){.topbar{height:112px;min-height:112px}.topbar .brand-lockup{width:112px;height:108px}.topbar .brand-logo-image{width:108px;height:108px}.nav{top:112px}footer .brand-lockup{width:130px;height:130px}footer .brand-logo-image{width:130px;height:130px}}
 @media(max-width:390px){.topbar{height:104px;min-height:104px}.topbar .brand-lockup{width:100px;height:100px}.topbar .brand-logo-image{width:100px;height:100px}.nav{top:104px}}
+
+
+/* Visual refinement 2026-11-06: compact, complete brand and unified orbital layout.
+   Preserve the approved source logo with its tagline, without cropping. */
+.topbar{height:126px;min-height:126px;padding-inline:max(6vw,24px);gap:20px;background:linear-gradient(180deg,#fff 0%,#fbfdff 100%);border:0;box-shadow:0 3px 22px #1b5fa10a}
+.topbar .brand-lockup{width:128px;height:120px;overflow:visible;display:flex;align-items:center}
+.topbar .brand-logo-image{position:static;width:120px;height:120px;max-width:none;object-fit:contain;transform:none}
+.topbar .nav{gap:27px}
+.topbar .nav a{font-size:13px;font-weight:650}
+.topbar .nav a:first-child{position:relative}
+.topbar .nav a:first-child:after{content:"";position:absolute;left:0;right:0;bottom:-12px;height:2px;background:#1264e9}
+.topbar .nav-cta{padding:13px 21px;box-shadow:0 6px 16px #1264cb18}
+.hero.hero-orbital{min-height:670px;padding:78px max(6vw,24px) 75px;background:radial-gradient(ellipse at 83% 45%,#c6e2ff 0%,#e2f0ff 40%,#f5faff 74%,#fff 100%)}
+.hero-orbital-wave{top:-112px;left:-5%;width:112%;height:175px;border-radius:0 0 50% 50%/0 0 50% 50%;transform:rotate(-.8deg);box-shadow:0 12px 32px #c9e5ff35}
+.hero-orbital .hero-copy{width:47%;max-width:620px}
+.hero-orbital h1{font-size:clamp(46px,4.7vw,72px);line-height:1.055;margin-bottom:24px;letter-spacing:-.057em}
+.hero-orbital .hero-description{max-width:520px;line-height:1.65}
+.hero-orbital .tech-art{inset:18px -1% 0 42%}
+.hero-orbital .tech-chip{background:#ffffffeb;border:1px solid #ffffffc9;box-shadow:0 15px 35px #12549a24;backdrop-filter:blur(8px)}
+.hero-orbital .button.primary,.contact .button.primary{box-shadow:0 9px 20px #1264cb2b}
+.hero-stats-bar{padding:21px max(6vw,24px);border-top:0;background:#ffffffeb}
+.contact{background:linear-gradient(120deg,#f3f8ff 0%,#eaf3ff 100%);gap:8%;align-items:center}
+.contact-panel{background:#ffffffed;box-shadow:0 14px 36px #153e7512;border:1px solid #e5effb}
+footer{gap:22px;align-items:center;padding-inline:max(6vw,24px)}
+footer .brand-lockup{width:110px;height:110px;display:flex;align-items:center;overflow:visible}
+footer .brand-logo-image{position:static;width:110px;height:110px;max-width:none;object-fit:contain;transform:none}
+@media(max-width:1100px){.topbar{height:112px;min-height:112px}.topbar .brand-lockup{width:110px;height:106px}.topbar .brand-logo-image{width:106px;height:106px}.topbar .nav{gap:15px}.hero-orbital .hero-copy{width:51%}.hero-orbital .tech-art{left:45%}}
+@media(max-width:760px){.topbar{height:90px;min-height:90px;padding-inline:16px}.topbar .brand-lockup{width:85px;height:84px}.topbar .brand-logo-image{width:84px;height:84px}.nav{top:90px}.hero.hero-orbital{min-height:720px;padding:83px 24px 64px}.hero-orbital-wave{top:-95px;height:145px}.hero-orbital .hero-copy{width:100%}.hero-orbital .tech-art{inset:275px -35% 0 8%;opacity:.2}.hero-orbital h1{font-size:clamp(38px,9vw,57px)}footer .brand-lockup{width:100px;height:100px}footer .brand-logo-image{width:100px;height:100px}}
+@media(max-width:390px){.topbar{height:84px;min-height:84px}.topbar .brand-lockup{width:80px;height:80px}.topbar .brand-logo-image{width:78px;height:78px}.nav{top:84px}.hero.hero-orbital{padding-inline:18px}}
